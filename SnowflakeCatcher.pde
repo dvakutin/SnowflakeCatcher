@@ -48,7 +48,8 @@ class Snowflake
   {
     if(y >= 0 && y <= 400){
       color c = get(x, y+6);
-      if(c != color(0, 162, 255) && c != color(144, 0, 255)) {
+      //if(c != color(0, 162, 255) && c != color(144, 0, 255)) {
+      if(c == color(151, 46, 46)) {
           isMoving = false;
       }
       else {
