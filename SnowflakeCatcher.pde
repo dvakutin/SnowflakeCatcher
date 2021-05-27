@@ -47,7 +47,7 @@ class Snowflake
   public void lookDown()
   {
     if(y >= 0 && y <= 400){
-      color c = get(x, y+6);
+      color c = get(x, y+7);
       if(c != color(0, 162, 255)) {
           isMoving = false;
       }
