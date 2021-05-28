@@ -34,7 +34,7 @@ class Snowflake
   public Snowflake()
   {
     x = (int)(Math.random() * 401);
-    y = (int)(Math.random() * 401);
+    y = (int)(Math.random() * 201);
     isMoving = true;
   }
   public void show()
