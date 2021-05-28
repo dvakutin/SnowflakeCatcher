@@ -23,7 +23,7 @@ void draw()
 void mouseDragged()
 {
   stroke(151, 46, 46);
-  strokeWeight(4);
+  strokeWeight(20);
   line(pmouseX, pmouseY, mouseX, mouseY);
 }
 class Snowflake
