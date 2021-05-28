@@ -23,7 +23,7 @@ void draw()
 void mouseDragged()
 {
   stroke(151, 46, 46);
-  strokeWeight(20);
+  strokeWeight(4);
   line(pmouseX, pmouseY, mouseX, mouseY);
 }
 class Snowflake
@@ -47,7 +47,7 @@ class Snowflake
   public void lookDown()
   {
     if(y >= 0 && y <= 400){
-      color c = get(x, y+6);
+      color c = get(x, y+8);
       //if(c != color(0, 162, 255) && c != color(144, 0, 255)) {
       if(c == color(151, 46, 46)) {
           isMoving = false;
